@@ -1,0 +1,28 @@
+:root {
+    --primario: #198754;
+    --secundario: #125737;
+    --negativo: red;
+    --positivo: green;
+}
+
+.clearfix img{
+    width: 200px;
+    height: auto;
+}
+
+.clearfix{
+    padding: 0 10% 0 10%;
+}
+
+.cont-info{
+    background-color: rgb(241, 241, 241);
+}
+
+.card-info a{
+    text-decoration: none;
+    color: var(--primario);
+}
+
+.card-info a:hover{
+    color: var(--secundario);
+}

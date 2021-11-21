@@ -1,11 +1,10 @@
 import { createStore, combineReducers, compose, applyMiddleware } from "redux";
 import thunk from 'redux-thunk';
 import CriptoReducer from "./apiCrypto";
-import IdReducer from "./infoCripto";
 
 const rootReducer = combineReducers({
     cryptos: CriptoReducer,
-    crypto: IdReducer
+    crypto: CriptoReducer,
     // user: AuthReducer,
     // products: ProductsReducer
     //Aca hay que agregar los otros reducers que se requieran

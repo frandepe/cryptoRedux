@@ -7,6 +7,11 @@
 
 .paginado li a{
     color: var(--primario);
+    cursor: pointer;
+}
+
+.paginado li a:hover{
+    color: var(--primario);
 }
 
 .imgBtc{
