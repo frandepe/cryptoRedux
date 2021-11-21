@@ -1,0 +1,17 @@
+:root {
+    --primario: #198754;
+    --secundario: #125737;
+    --negativo: red;
+    --positivo: green;
+}
+
+.paginado li a{
+    color: var(--primario);
+}
+
+.imgBtc{
+    width: 25px;
+    height: auto;
+    cursor: pointer;
+}
+
