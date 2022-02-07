@@ -1,19 +1,15 @@
-// import { useEffect } from 'react';
-// import { useDispatch } from 'react-redux';
-import Router from './Router/Router'
-import './App.css';
+import Router from "./Router/Router";
+import "./App.css";
+import i18n from "./language";
 
 function App() {
-
-  // const dispatch = useDispatch();
-
-  // useEffect(() => {
-  //   dispatch(getCripto())
-  // }, [])
+  i18n.options.interpolation.defaultVariables = {
+    companyName: "cryptoApp",
+  };
 
   return (
     <div className="App">
-        <Router />
+      <Router />
     </div>
   );
 }

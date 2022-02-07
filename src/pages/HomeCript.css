@@ -1,22 +1,25 @@
 :root {
-    --primario: #198754;
-    --secundario: #125737;
-    --negativo: red;
-    --positivo: green;
+  --primario: #198754;
+  --secundario: #125737;
+  --negativo: red;
+  --positivo: green;
 }
 
-.paginado li a{
-    color: var(--primario);
-    cursor: pointer;
+.paginado li a {
+  color: var(--primario);
+  cursor: pointer;
 }
 
-.paginado li a:hover{
-    color: var(--primario);
+.paginado li a:hover {
+  color: var(--primario);
 }
 
-.imgBtc{
-    width: 25px;
-    height: auto;
-    cursor: pointer;
+.imgBtc {
+  width: 25px;
+  height: auto;
+  cursor: pointer;
 }
 
+.titleHome {
+  color: var(--text);
+}

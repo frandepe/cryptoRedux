@@ -1,28 +1,53 @@
 :root {
-    --primario: #198754;
-    --secundario: #125737;
-    --negativo: red;
-    --positivo: green;
+  --primario: #198754;
+  --secundario: #125737;
+  --negativo: red;
+  --positivo: green;
 }
 
-.clearfix img{
-    width: 200px;
-    height: auto;
+.clearfix img {
+  width: 200px;
+  height: auto;
 }
 
-.clearfix{
-    padding: 0 10% 0 10%;
+.clearfix {
+  padding: 0 10% 0 10%;
 }
 
-.cont-info{
-    background-color: rgb(241, 241, 241);
+.cont-info {
+  background-image: url("../banner.jpg");
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid black;
+  color: var(--text);
+}
+.card-info {
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(155, 155, 155, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+.card-info a {
+  text-decoration: none;
+  color: var(--primario);
 }
 
-.card-info a{
-    text-decoration: none;
-    color: var(--primario);
+.card-info a:hover {
+  color: var(--secundario);
+}
+.cont-img-text {
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(155, 155, 155, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  padding: 3%;
+  color: black;
+  margin-bottom: 2%;
 }
 
-.card-info a:hover{
-    color: var(--secundario);
+.site-blockchain::after {
+  content: " \25BC";
+  font-size: 11px;
 }

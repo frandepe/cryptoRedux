@@ -1,0 +1,13 @@
+input {
+  opacity: 0;
+}
+.container-formLang img {
+  cursor: pointer;
+}
+.container-formLang {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  color: var(--text);
+}
